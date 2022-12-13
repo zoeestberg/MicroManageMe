@@ -22,17 +22,17 @@ Below is what you should see if the appointment creator works properly. This is 
 ***
 **Installation**
 
-Microsoft Outlook is required for this package to function. An account must be signed in as well.
+1. Microsoft Outlook is required for this package to function. An account must be signed in as well.
 
-Install and extract the zip file containing the github repository into a file location of your choice.
+2. Install and extract the zip file containing the github repository into a file location of your choice.
 
-Run the powershell application in the same security context as your outlook (administrator, base privilege, etc).
+3. Run the powershell application in the same security context as your outlook (administrator, base privilege, etc).
 
-Set your location in powershell to the folder containing the contents of the github repository.
+4. Set your location in powershell to the folder containing the contents of the github repository.
 
-Import the yml file as the working environment in powershell, activate the environment.
+5. Import the yml file as the working environment in powershell, activate the environment.
 
-Run the MicroManageMe.py script with the arguments "-c 'config filename'" and "-s 'course schedule filename'" (remove double quotation marks and use actual file names).
+6. Run the MicroManageMe.py script with the arguments "-c 'config filename'" and "-s 'course schedule filename'" (remove double quotation marks and use actual file   names).
 
 This is an example screenshot of what should be input into your Powershell to functionally use the script.
 ![Powershell Example Setup](https://github.com/zoeestberg/MicroManageMe/blob/main/Powershell%20Example%20Setup.PNG)
