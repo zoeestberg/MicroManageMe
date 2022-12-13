@@ -1,7 +1,7 @@
 # MicroManageMe
 _Python Project Group 1_
 
-The purpose of this package is to create multiple Outlook appointments for course assigments based on data inputed by the user. The appointment parameters addressed in the first vesion of this package include subject title, start date, end date and body text. Additionally, reminders for the appointments are determined based on the weight associated with each course on the final grade.
+The purpose of this package is to create multiple Outlook appointments for course assigments based on data inputed by the user. The appointment parameters addressed in the first vesion of this package include subject title, start date, end date and body text. Additionally, reminders and importance for the appointments are determined based on the weight associated with each course on the final grade or directly by the user.
 ***
 **Motivation**
 
@@ -17,11 +17,12 @@ No particular code style was implemented except for the use of camel case as a n
 ***
 **Screenshots**
 
-Outlook Appointment picture used in presentation
+Below is what you should see if the appointment creator works properly. This is an example appointment with arbitrary fields. In most cases, appointments should pop-up instantly in your Outlook page.
+![Appointment Display](https://github.com/zoeestberg/MicroManageMe/blob/main/Appointment%20Display.png)
 ***
 **Installation**
 
-Microsoft Outlook is idk what, maybe environment or package name?
+Microsoft Outlook is required for this package to function. An account must be signed in as well.
 ***
 **How to use?**
 
