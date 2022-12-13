@@ -35,7 +35,7 @@ Import the yml file as the working environment in powershell, activate the envir
 Run the MicroManageMe.py script with the arguments "-c 'config filename'" and "-s 'course schedule filename'" (remove double quotation marks and use actual file names).
 
 This is an example screenshot of what should be input into your Powershell to functionally use the script.
-
+![Powershell Example Setup](https://github.com/zoeestberg/MicroManageMe/blob/main/Appointment%20Display.png)
 
 ***
 **How to use?**
