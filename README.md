@@ -28,7 +28,7 @@ Microsoft Outlook is required for this package to function. An account must be s
 ***
 **How to use?**
 
-Note, an example Jupyter Notebook is included in this package to walk through appropriate use. Refer to docstrings for detailed descriptions of individual functions. The input format for the configuration files is as follows:
+Refer to docstrings for detailed descriptions of individual functions. The input format for the configuration files is as follows:
 
 *Param Config.csv*
 
