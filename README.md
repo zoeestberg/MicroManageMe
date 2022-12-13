@@ -23,10 +23,19 @@ Below is what you should see if the appointment creator works properly. This is 
 **Installation**
 
 Microsoft Outlook is required for this package to function. An account must be signed in as well.
+(XXXXX LITTLE PARAGRAPH ABOUT THE .YAML FILE 
+
 ***
 **How to use?**
 
-Note, an example Jupyter Notebook is included in this package to walk through appropriate use. 
+Note, an example Jupyter Notebook is included in this package to walk through appropriate use. Refer to docstrings for detailed descriptions of the individual functions. The input format for the configuration files is as follows:
+  xxxxx
+  x
+  xx
+  x
+  
+
+
 ***
 **Credits**
 |Contributor|Email|
