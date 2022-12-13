@@ -28,13 +28,20 @@ Microsoft Outlook is required for this package to function. An account must be s
 ***
 **How to use?**
 
-Note, an example Jupyter Notebook is included in this package to walk through appropriate use. Refer to docstrings for detailed descriptions of the individual functions. The input format for the configuration files is as follows:
-  xxxxx
-  x
-  xx
-  x
-  
+Note, an example Jupyter Notebook is included in this package to walk through appropriate use. Refer to docstrings for detailed descriptions of individual functions. The input format for the configuration files is as follows:
 
+*Param Config.csv*
+
+- Low Priority Boundary: Whole number identifying the % weight of a course in a 
+- Medium Priority Boundary: Note, high importance is designtaed automatically as any value above the medium importance boundary
+- Low Importance Reminder: Whole number of days before appointment of low importance to be reminded of event
+- Medium Importance Reminder: Whole number of days before appointment of medium importance to be reminded of event
+- High Importance Reminder: Whole number of days before appointment of high importance to be reminded of event
+- Time Zone: 3 capital letters identifying time zone (i.e. Eastern Standard Time -> EST)
+
+*Course 1.csv*
+
+Please note, 
 
 ***
 **Credits**
