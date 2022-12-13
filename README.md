@@ -32,7 +32,7 @@ Below is what you should see if the appointment creator works properly. This is 
 
 5. Import the yml file as the working environment in powershell, activate the environment.
 
-6. Run the MicroManageMe.py script with the arguments "-c 'config filename'" and "-s 'course schedule filename'" (remove double quotation marks and use actual file   names).
+6. Run the MicroManageMe.py script with the arguments `-c 'config filename'` and `-s 'course schedule filename'`.
 
 This is an example screenshot of what should be input into your Powershell to functionally use the script.
 ![Powershell Example Setup](https://github.com/zoeestberg/MicroManageMe/blob/main/Powershell%20Example%20Setup.PNG)
