@@ -32,16 +32,22 @@ Note, an example Jupyter Notebook is included in this package to walk through ap
 
 *Param Config.csv*
 
-- Low Priority Boundary: Whole number identifying the % weight of a course in a 
-- Medium Priority Boundary: Note, high importance is designtaed automatically as any value above the medium importance boundary
-- Low Importance Reminder: Whole number of days before appointment of low importance to be reminded of event
-- Medium Importance Reminder: Whole number of days before appointment of medium importance to be reminded of event
-- High Importance Reminder: Whole number of days before appointment of high importance to be reminded of event
-- Time Zone: 3 capital letters identifying time zone (i.e. Eastern Standard Time -> EST)
+- Low Priority Boundary: Whole number identifying the % weight of an assignment in a course designating a low priority assignment. (i.e. an assignment is 5% of grade but low priority boundary is 10%, assignment is assigned internally as low priority).
+- Medium Priority Boundary: Whole number identifying the % weight of an assignment in a course designating a low priority assignment. Note, high importance is designtaed automatically as any value above the medium importance boundary.
+- Low Importance Reminder: Whole number of days before appointment of low importance to be reminded of event.
+- Medium Importance Reminder: Whole number of days before appointment of medium importance to be reminded of event.
+- High Importance Reminder: Whole number of days before appointment of high importance to be reminded of event.
+- Time Zone: 3 capital letters identifying time zone (i.e. Eastern Standard Time -> EST).
 
 *Course 1.csv*
 
-Please note, 
+Please note, each row following the headers corresponds to a single assignment. An unlimited number of rows can be added to the configuration file, but there should not be any gaps between rows.
+
+- Assignment Title: Title of the assignment you are assigning an Outlook event to. This parameter will function as the subject of the appointment.
+- Assignment Type: There are 3 assignment types "HW", "Assignment" or "Exam". These are just classifiers, or an addded descriptor for an event.
+- Weight: Percentage of final course grade the assignment is worth in a whole number (integer). The weight in combination with the prioriy boundaries automatically assign appointment reminders.
+- Due Date: Date the assignment is due in MM/DD/YYYY format. Note, only dates in the future can be assigned to an appointment (i.e. December 25, 2050 -> 12/25/2050).
+- URL or Description: This parameter is added to the appointment body text. Any information relevant to the assignment can be included in this section, including linkable URLs.
 
 ***
 **Credits**
