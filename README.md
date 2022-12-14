@@ -29,14 +29,14 @@ Below is what you should see if the appointment creator works properly. This is 
 3. Run the powershell application in the same security context as your outlook (administrator, base privilege, etc).
 
 4. Set your location in powershell to the folder containing the contents of the github repository.
-***`Set-Location 'Folder Directory'`
+`Set-Location 'Folder Directory'`
 
 5. Import the yml file as the working environment in powershell, activate the environment.
-***`conda env create -n MicroManageMe --file .\MicroManageMe.yml`
-***`conda activate MicroManageMe`
+`conda env create -n MicroManageMe --file .\MicroManageMe.yml`
+`conda activate MicroManageMe`
 
 6. Run the MicroManageMe.py script with the arguments `-c 'config filename'` and `-s 'course schedule filename'`.
-***`python .\MicroManageMe.py -c 'Param Config.csv' -s 'Course 1.csv'
+`python .\MicroManageMe.py -c 'Param Config.csv' -s 'Course 1.csv'`
 
 This is an example screenshot of what should be input into your Powershell to functionally use the script.
 ![Powershell Example Setup](https://github.com/zoeestberg/MicroManageMe/blob/main/Powershell%20Example%20Setup.PNG)
