@@ -2,6 +2,8 @@
 _Python Project Group 1_
 
 The purpose of this package is to create multiple Outlook appointments for course assigments based on data inputed by the user. The appointment parameters addressed in the first vesion of this package include subject title, start date, end date and body text. Additionally, reminders and importance for the appointments are determined based on the weight associated with each course on the final grade or directly by the user.
+
+![MicroManageMe Example](https://github.com/zoeestberg/MicroManageMe/blob/main/MicroManageMe%20Example.gif)
 ***
 **Motivation**
 
@@ -32,8 +34,8 @@ Below is what you should see if the appointment creator works properly. This is 
 `Set-Location 'Folder Directory'`
 
 5. Import the yml file as the working environment in powershell, activate the environment.  
-`conda env create -n MicroManageMe --file .\MicroManageMe.yml`  
-`conda activate MicroManageMe`  
+`conda env create -n MicroManageMePy --file .\MicroManageMe.yml`  
+`conda activate MicroManageMePy`  
 
 6. Run the MicroManageMe.py script with the arguments `-c 'config filename'` and `-s 'course schedule filename'`.  
 `python .\MicroManageMe.py -c 'Param Config.csv' -s 'Course 1.csv'`  
